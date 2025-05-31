@@ -53,6 +53,10 @@ In an age of rapid information dissemination, fake news can spark chaos, especia
 - [x] Voting functionality (WIP)  
 
 ![Demo Screenshot](demo.png)
+![swappy-20250531-200457](https://github.com/user-attachments/assets/cb1b5529-189c-43eb-ae58-00c218705ce9)
+![swappy-20250531-201024](https://github.com/user-attachments/assets/ac507c4b-50f8-4925-a666-5f50560f4a65)
+![swappy-20250531-201056](https://github.com/user-attachments/assets/2a6505a9-602a-43ba-804a-42a60c7e711f)
+![swappy-20250531-201210](https://github.com/user-attachments/assets/d504bd08-9a1c-4974-9e21-a084e4025189)
 
 ---
 
