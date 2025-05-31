@@ -94,7 +94,7 @@ npm run dev
 ---
 
 ⚙️ AI Model Update  
-We currently utilize an AI model from huggingface (api-inference.huggingface.co/models/mrm8488/bert-tiny-finetuned-fake-news-detection) for news verification.
+We currently utilize an [AI model from huggingface](api-inference.huggingface.co/models/mrm8488/bert-tiny-finetuned-fake-news-detection) for news verification.
 
 LSTM Model Already Developed  
 We’ve already built a deep learning LSTM-based AI model designed to enhance news verification on Contravylt. While it hasn’t been fully integrated yet, the foundation is in place and we are now working on improving its accuracy and ensuring proper connection to our platform.
