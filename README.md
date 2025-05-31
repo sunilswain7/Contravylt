@@ -57,6 +57,12 @@ In an age of rapid information dissemination, fake news can spark chaos, especia
 ![swappy-20250531-201024](https://github.com/user-attachments/assets/ac507c4b-50f8-4925-a666-5f50560f4a65)
 ![swappy-20250531-201056](https://github.com/user-attachments/assets/2a6505a9-602a-43ba-804a-42a60c7e711f)
 ![swappy-20250531-201210](https://github.com/user-attachments/assets/d504bd08-9a1c-4974-9e21-a084e4025189)
+![swappy-20250531-201253](https://github.com/user-attachments/assets/78db7c73-3e48-4cd1-98f2-8ab8597e1193)
+![swappy-20250531-201333](https://github.com/user-attachments/assets/83b7ea1c-185c-4564-9f3c-144ee70f6bec)
+![swappy-20250531-201357](https://github.com/user-attachments/assets/1a2e1793-d9ba-478a-bb60-4455ee8a441d)
+![swappy-20250531-201430](https://github.com/user-attachments/assets/6572eb70-66e6-44e8-8c95-20bb6e3bf62f)
+![swappy-20250531-201944](https://github.com/user-attachments/assets/7215891e-253e-4ac6-824b-fcb1261d3309)
+![swappy-20250531-202441](https://github.com/user-attachments/assets/f2bcae49-978b-4ca9-a18e-cec61dc74545)
 
 ---
 
