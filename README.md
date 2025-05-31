@@ -93,23 +93,21 @@ npm run dev
 
 ---
 
-## ⚙️ AI Model Update
+⚙️ AI Model Update  
+We currently utilize an AI model accessed via the Pinata API (https://api.pinata.cloud/pinning/pinJSONToIPFS) for news verification.
 
-Currently, our platform uses an AI model accessed via the Pinata API (`https://api.pinata.cloud/pinning/pinJSONToIPFS`) for news verification.
+LSTM Model Already Developed  
+We’ve already built a deep learning LSTM-based AI model designed to enhance news verification on Contravylt. While it hasn’t been fully integrated yet, the foundation is in place and we are now working on improving its accuracy and ensuring proper connection to our platform.
 
-### Upcoming Python LSTM Model
-
-We are developing a new AI model based on a deep learning LSTM architecture with the following highlights:
-
-- **Libraries:** Pandas, Scikit-learn, TensorFlow/Keras, NumPy, Pickle  
-- **Data:** Combined real and fake news datasets, cleaned, tokenized, and padded to fixed length (150 tokens)  
-- **Architecture:**  
+Model Highlights:
+- Libraries: Pandas, Scikit-learn, TensorFlow/Keras, NumPy, Pickle  
+- Data: Merged real and fake news datasets, cleaned, tokenized, and padded to 150 tokens  
+- Architecture:
   - Embedding layer (100-dimensional vectors)  
-  - LSTM layer with 150 units and dropout (0.5)  
-  - GlobalMaxPooling1D to aggregate sequence outputs  
-  - Dense layers with ReLU and softmax for binary classification  
-- **Training:** Adam optimizer (lr=0.0001), categorical cross-entropy loss, trained for 15 epochs  
-- **Prediction:** Processes news text using a pre-trained tokenizer and outputs a 'FAKE' or 'REAL' verdict along with a confidence score.
+  - LSTM layer with 150 units and 0.5 dropout  
+  - GlobalMaxPooling1D for sequence output aggregation  
+  - Dense layers using ReLU and softmax for binary classification  
+- Training: Adam optimizer (lr=0.0001), categorical cross-entropy loss, trained for 15 epochs  
+- Prediction: Takes news text input, uses a pre-trained tokenizer, and returns a 'FAKE' or 'REAL' label with a confidence score.
 
-This model will replace the current AI integration to provide more accurate and robust news verification on Contravylt.
-
+We’re now focused on refining this model and completing the integration to deliver more reliable and accurate news verification.
