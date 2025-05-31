@@ -91,6 +91,7 @@ def predict(test_news):
     return result
 
 if __name__ == "__main__":
+    
     filename = "testcases.bin"
     with open(filename, 'rb') as file:
         data = pickle.load(file)
