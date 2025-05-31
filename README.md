@@ -86,6 +86,6 @@ npm install
 node index.js
 
 # Install frontend dependencies
-cd ../frontend
+cd frontend
 npm install
 npm run dev
