@@ -77,7 +77,7 @@ In an age of rapid information dissemination, fake news can spark chaos, especia
 ## 📦 Running Locally
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/contravylt.git
+git clone https://github.com/sunilswain7/contravylt.git
 cd contravylt
 
 # Install backend dependencies
