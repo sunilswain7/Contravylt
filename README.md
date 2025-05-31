@@ -89,3 +89,26 @@ node index.js
 cd frontend
 npm install
 npm run dev
+
+---
+
+## ⚙️ AI Model Update
+
+Currently, our platform uses an AI model accessed via the Pinata API (`https://api.pinata.cloud/pinning/pinJSONToIPFS`) for news verification.
+
+### Upcoming Python LSTM Model
+
+We are developing a new AI model based on a deep learning LSTM architecture with the following highlights:
+
+- **Libraries:** Pandas, Scikit-learn, TensorFlow/Keras, NumPy, Pickle  
+- **Data:** Combined real and fake news datasets, cleaned, tokenized, and padded to fixed length (150 tokens)  
+- **Architecture:**  
+  - Embedding layer (100-dimensional vectors)  
+  - LSTM layer with 150 units and dropout (0.5)  
+  - GlobalMaxPooling1D to aggregate sequence outputs  
+  - Dense layers with ReLU and softmax for binary classification  
+- **Training:** Adam optimizer (lr=0.0001), categorical cross-entropy loss, trained for 15 epochs  
+- **Prediction:** Processes new news text with saved tokenizer, outputs FAKE or REAL verdict  
+
+This model will replace the current AI integration to provide more accurate and robust news verification on Contravylt.
+
