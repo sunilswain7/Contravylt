@@ -123,7 +123,7 @@ To view exact test cases, refer to the following file:
 #### 📸 CLI Output Screenshot  
 Shows the CLI interface including input text, prediction result (`FAKE` or `REAL`), and confidence score.
 
-![CLI Output Screenshot](images/cli_output.png)
+![CLI Output Screenshot](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/cli1.png)
 
 ---
 
