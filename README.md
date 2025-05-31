@@ -128,7 +128,7 @@ Shows the CLI interface including input text, prediction result (`FAKE` or `REAL
 ---
 
 #### 📰 Real News Article Used in Test Case  
-This is an actual news snippet that was used as input for testing the model.
+These are actual news snippets that were used as input for testing the model.
 
 [![Real News Screenshot 1](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/rn1.png)](https://www.bbc.com/news/articles/cje7zex3njwo)
 [![Real News Screenshot 2](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/rn2.png)](https://www.bbc.com/news/articles/cy0k5x21y35o)
