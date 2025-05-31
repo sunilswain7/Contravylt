@@ -109,7 +109,7 @@ We are developing a new AI model based on a deep learning LSTM architecture with
   - GlobalMaxPooling1D to aggregate sequence outputs  
   - Dense layers with ReLU and softmax for binary classification  
 - **Training:** Adam optimizer (lr=0.0001), categorical cross-entropy loss, trained for 15 epochs  
-- **Prediction:** Processes new news text with saved tokenizer, outputs FAKE or REAL verdict  
+- **Prediction:** Processes news text using a pre-trained tokenizer and outputs a 'FAKE' or 'REAL' verdict along with a confidence score.
 
 This model will replace the current AI integration to provide more accurate and robust news verification on Contravylt.
 
