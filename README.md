@@ -93,7 +93,7 @@ npm run dev
 
 ---
 
-⚙️ AI Model Update  
+## ⚙️ AI Model Update  
 We currently utilize an [AI model from huggingface](api-inference.huggingface.co/models/mrm8488/bert-tiny-finetuned-fake-news-detection) for news verification.
 
 LSTM Model Already Developed  
@@ -111,3 +111,29 @@ Model Highlights:
 - Prediction: Takes news text input, uses a pre-trained tokenizer, and returns a 'FAKE' or 'REAL' label with a confidence score.
 
 We’re now focused on refining this model and completing the integration to deliver more reliable and accurate news verification.
+
+### 🧪 Testing
+Note: Only screenshots are currently available for test outputs. 
+To view exact test cases, refer to the following file:
+[python - sequence classification model/testcases.py](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/testcases.py)
+
+
+---
+
+#### 📸 CLI Output Screenshot  
+Shows the CLI interface including input text, prediction result (`FAKE` or `REAL`), and confidence score.
+
+![CLI Output Screenshot](images/cli_output.png)
+
+---
+
+#### 📰 Real News Article Used in Test Case  
+This is an actual news snippet that was used as input for testing the model.
+
+[![Real News Screenshot 1](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/rn1.png)](https://www.bbc.com/news/articles/cje7zex3njwo)
+[![Real News Screenshot 2](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/rn2.png)](https://www.bbc.com/news/articles/cy0k5x21y35o)
+[![Real News Screenshot 3](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/rn3.png)](https://www.bbc.com/news/articles/cj09165vj47o)
+[![Real News Screenshot 4](https://github.com/sunilswain7/Contravylt/blob/master/python%20-%20sequence%20classification%20model/img/rn4.png)](https://www.bbc.com/news/articles/clygd1vl9yeo)
+
+
+
