@@ -104,4 +104,4 @@ if __name__ == "__main__":
         newsType = 'Fake' if i < len(fakeNews) else 'Real'
         label = prediction['label']
         confidence = prediction['confidence']
-        print(f"\n{newsType} News: {test_news[i][:60]}...\nPrediction: {label} ({confidence * 100:.2f}% confidence)")
+        print(f"\n{newsType} News: {test_news[i][:120]}{'...' if len(test_news[i])>120 else ''}\nPrediction: {label} ({confidence * 100:.2f}% confidence)")
