@@ -12,7 +12,7 @@ In an age of rapid information dissemination, fake news can spark chaos, especia
 ## 💡 Proposed Solution
 **Contravylt** leverages:
 - AI/ML models for real-time news verification.
-- Blockchain (Polygon) for storing tamper-proof verification records.
+- Blockchain (Ethereum testnet Sepolia) for storing tamper-proof verification records.
 - IPFS for immutable storage of news verification data.
 - Community-driven voting for credibility assessment.
 
@@ -32,7 +32,7 @@ In an age of rapid information dissemination, fake news can spark chaos, especia
 - **Backend:** Node.js, Express.js, HuggingFace AI API  
 - **Smart Contracts:** Solidity, Hardhat  
 - **Storage:** IPFS (via Pinata)  
-- **Blockchain:** Polygon (Sepolia testnet for demo)
+- **Blockchain:** Ethereum (Sepolia testnet for demo)
 
 ---
 
@@ -70,7 +70,7 @@ Screenshot of Demo:
 🔹 Enhance AI accuracy (fine-tune ML models).  
 🔹 Fully implement real-time voting & community review.  
 🔹 Polish UI/UX and performance.  
-🔹 Migrate to Polygon mainnet for real-world use.
+🔹 Migrate to Ethereum mainnet for real-world use.
 
 ---
 
